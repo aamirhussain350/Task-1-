@@ -1,0 +1,19 @@
+string=input("Enter any string")
+string=list(string)
+print(string)
+i=0
+j=0
+
+while(i!=len(string)):
+    while(j!=len(string) and j<len(string)):
+        if string[i]==string[j] and i!=j:
+            string.pop(j)
+        j=j+1
+    j=0
+    i=i+1
+
+string.remove(' ')
+print(string)
+string=(' '.join(string))
+
+print(string)
