@@ -1,0 +1,9 @@
+string=input("Enter any string")
+
+print("The String before reversing:-",string)
+
+string=string.split()
+string.reverse()
+string=(' '.join(string))
+
+print("The String after reversing:-",string)
