@@ -1,0 +1,15 @@
+a=input("enter any string")
+a=list(a)
+countlower=0
+countupper=0
+countspace=0
+for i in range(0,len(a)):
+    if a[i].islower()==True:
+        countlower=countlower+1
+    if a[i].isupper()==True:
+        countupper=countupper+1
+    if a[i].isspace()==True:
+        countspace=countspace+1
+print("number of upper case letters are:",countupper)
+print("number of lower case letters are:",countlower)
+
